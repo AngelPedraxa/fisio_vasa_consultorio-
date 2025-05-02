@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FISIO VASA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #009999, #004d4d);
+      color: white;
+      text-align: center;
+      padding: 3em 1em 2em;
+    }
+
+    header img {
+      width: 180px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    section {
+      padding: 2em 1.5em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .mission-vision {
+      background-color: #eafaf9;
+      border-radius: 10px;
+      padding: 2em;
+      margin-top: -20px;
+    }
+
+    .mission-vision h2 {
+      color: #006666;
+    }
+
+    .btn {
+      background: #009999;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: #007777;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: #ffffff;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    footer {
+      background: #004d4d;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .social {
+      margin-top: 10px;
+    }
+
+    .social a {
+      color: white;
+      font-size: 1.5em;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      font-size: 1.8em;
+      padding: 10px 15px;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      text-decoration: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/AngelPedraxa/fisio_vasa_consultorio-/main/LOGO_FISIOVASA.png" alt="Logo Fisio Vasa" />
+    <h1 style="margin-top: 10px;">FISIO VASA</h1>
+    <p>Centro de rehabilitación física</p>
+    <p><em>"Salud y calidad de vida a través del movimiento"</em></p>
+  </header>
+
+  <section class="mission-vision">
+    <h2>Nuestra Misión</h2>
+    <p>Brindar un servicio integral y personalizado, mejorar la calidad de vida de los pacientes mediante la intervención de la terapia física, capacitar a familiares y cuidadores.</p>
+
+    <h2>Nuestra Visión</h2>
+    <p>Ser un centro de rehabilitación con especialidades, reconocido, confiable y con calidez humana, ofreciendo un espacio seguro y cómodo para los pacientes. Brindar una óptima recuperación de los pacientes y reincorporación a sus actividades de la vida diaria.</p>
+
+    <a href="#agendar" class="btn">Agendar Cita</a>
+  </section>
+
+  <section id="agendar">
+    <h2>Agendar una Cita</h2>
+    <form>
+      <input type="text" name="nombre" placeholder="Nombre completo" required />
+      <input type="tel" name="telefono" placeholder="Teléfono" required />
+      <input type="email" name="correo" placeholder="Correo electrónico" />
+      <input type="date" name="fecha" required />
+      <textarea name="motivo" rows="4" placeholder="Motivo de la consulta" required></textarea>
+      <button type="submit" class="btn">Enviar solicitud</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FISIO VASA - Todos los derechos reservados</p>
+    <div class="social">
+      <a href="https://www.facebook.com/profile.php?id=100095067906410" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5210000000000" class="whatsapp-button" title="Contáctanos por WhatsApp" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
+
